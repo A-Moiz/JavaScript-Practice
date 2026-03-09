@@ -3,8 +3,7 @@ var twoSum = function (nums, target) {
   for (let i = 0; i < nums.length; i++) {
     for (let j = i + 1; j < nums.length; j++) {
       if (nums[i] + nums[j] === target) {
-        output.push(i);
-        output.push(j);
+        output.push(i, j);
       }
     }
   }
@@ -15,5 +14,5 @@ var twoSum = function (nums, target) {
 };
 
 const array = [2, 1, 5, 3];
-const target = 9;
+const target = 5;
 console.log(twoSum(array, target));
