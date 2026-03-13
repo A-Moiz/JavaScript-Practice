@@ -1,0 +1,1 @@
+Create a function which prints the numbers 1-100. If the number is divisible by 3 print “Fizz”. If the number is divisible by 5 print “Buzz”. If it’s divisible by both print “FizzBuzz”. If it’s none print the number itself.
